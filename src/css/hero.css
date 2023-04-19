@@ -1,0 +1,20 @@
+
+.hero-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 24rem;
+}
+
+.hero-title {
+    color: var(--clr-black);
+    font-size: var(--fs-36);
+    font-weight: var(--fw-600);
+    margin: 0.8em 0 0.44em;
+}
+
+.hero-text {
+    color: var(--clr-dark-grey-1);
+    font-weight: var(--fw-300);
+    line-height: 1.2;
+    width: 20rem;
+}

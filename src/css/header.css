@@ -1,0 +1,4 @@
+.header {
+    box-shadow: var(--bs-header);
+    padding: 1.4em 0 1.4em 2em;
+}

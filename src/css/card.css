@@ -1,0 +1,53 @@
+.travel-card-container {
+    display: flex;
+    gap: 1.13rem;
+    align-items: center;
+    margin: 3.13rem 0 0;
+}
+
+
+.card-img {
+    width: 100%;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    max-width: 11rem;
+}
+
+.card-body {
+    margin: 0.563em 0 0;
+}
+
+.rating__location {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.star-icon {
+    width: 0.875rem;
+}
+
+.dot {
+    width: 2px;
+    height: 2px;
+    background: var(--clr-dark-grey-2);
+}
+
+.rating__location span:nth-child(3),
+.country {
+    color: var(--clr-dark-grey-2);
+}
+
+.card-text,
+.price {
+    font-size: var(--fs-12);
+}
+
+.card-text {
+    color: var(--clr-dark-grey-1);
+    margin: 0.67em 0;
+}
+
+.bold {
+    font-weight: var(--fw-600);
+}
